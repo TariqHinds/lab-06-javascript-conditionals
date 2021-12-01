@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+var japanese = prompt ("Give me a word in english like cat, dog, demon, boat");
+if (japanese == "cat") {
+    console.log("neko");
+}
+if (japanese == "dog") {
+    console.log ("Inu");
+}if (japanese == "demon") {
+    console.log ("Akuma");
+}
+
+if (japanese == "boat") {
+    console.log("fune");
+} 
+</script>
+</head>
+<body>
+    
+</body>
+</html>
