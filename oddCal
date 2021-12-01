@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+var num1 = prompt ("Give me a number");
+var num2 = prompt ("Give me another number");
+var operations = prompt ("What do you want to do? Multi, Div, Add, Subtract");
+var resultM = parseFloat(num1) * parseFloat(num2)
+var resultD = parseFloat(num1) / parseFloat(num2)
+var resultA = parseFloat(num1) + parseFloat(num2)
+var resultS = parseFloat(num1) - parseFloat(num2)
+
+if (operations == "Multi") {
+   console.log(resultM)
+}
+if (operations == "Div") {
+    console.log(resultD)
+}
+if (operations == "Add") {
+    console.log(resultA)
+}
+
+if (operations == "Subtract") {
+    console.log(resultS)
+}
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
